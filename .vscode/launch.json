@@ -1,0 +1,19 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "1c-platform-tools",
+			"request": "launch",
+			"name": "Отладка 1С (Platform Tools)",
+			"rootProject": "${workspaceFolder}/src/cf",
+			"platformPath": "C:/Program Files/1cv8",
+			"platformVersion": "8.3.23.2040",
+			"debugServerHost": "localhost",
+			"debugServerPort": 1550,
+			"autoAttachTypes": [
+				"Client",
+				"ManagedClient"
+			]
+		}
+	]
+}
