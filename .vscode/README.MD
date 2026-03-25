@@ -10,6 +10,9 @@
 
 "_comment_autoAttachTypes": "Массив типов для автоматического подключения. Например: ['Client', 'ManagedClient']",
 
+Доступные значения: Client (Толстый клиент), ManagedClient (Тонкий клиент), WebClient, Server, OData, HttpService, WebService и др.
+Пример: ["Client", "ManagedClient", "Server"]
+
 # В случае, если у вас есть какие-либо расширения, то их нужно указать в массиве extensions. Например: 
 
 "extensions": [
